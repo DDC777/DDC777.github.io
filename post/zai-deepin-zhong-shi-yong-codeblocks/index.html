@@ -5,7 +5,7 @@
 <meta name="description" content="" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
-    记一次西西批西区域赛 | ZileWang7的Blog
+    在deepin中使用code::blocks | ZileWang7的Blog
 </title>
 <link rel="shortcut icon" href="https://zilewang7.github.io/favicon.ico?v=1603894321592">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
@@ -99,16 +99,45 @@
                 <div id="content" class="main-container-left">
                     <article class="post i-card">
                         <h2 class="post-title">
-                            记一次西西批西区域赛
+                            在deepin中使用code::blocks
                         </h2>
                         <div class="post-info">
-                            <time class="post-time">2020-10-11</time>
+                            <time class="post-time">2020-10-28</time>
                             
                         </div>
                         
                                 <div class="post-content">
-                                    <p>封装一张纸条-&gt;ac一道题<br>
-什么嘛，我还是蛮不错的嘛</p>
+                                    <p><s>记一次无用的折腾</s></p>
+<!-- more -->
+<h3 id="安装codeblocks">安装code::blocks</h3>
+<p><code>sudo add-apt-repository ppa:codeblocks-devs/release</code><br>
+<code>sudo apt-get update</code><br>
+<code>sudo apt-get install codeblocks codeblocks-contrib</code></p>
+<p>若因为依赖安装失败，可通过aptitude安装</p>
+<p><code>sudo apt-get install aptitude</code></p>
+<p><code>sudo aptitude install codeblocks codeblocks-contrib</code></p>
+<p>还是安装失败的话试试切换aptitude的不同安装方案</p>
+<!-- more -->
+<h3 id="安装环境变量">安装环境变量</h3>
+<p><code>sudo apt-get install gcc</code></p>
+<!-- more -->
+<h3 id="汉化选装">汉化（选装）</h3>
+<p>创建中文目录</p>
+<p><code>cd /usr/share/codeblocks/</code></p>
+<p><code>sudo mkdir locale</code></p>
+<p><code>cd locale</code></p>
+<p><code>sudo mkdir zh_CN</code></p>
+<p>语言包链接：https://pan.baidu.com/s/1yZsSk9ZFqVx7cn02nI6M_g<br>
+提取码：DDC5</p>
+<p>将mo后缀的语言包移动到/usr/share/codeblocks/locale/zh_CN</p>
+<p>打开code::blocks点击Setting：EnvironmentSettings，View中勾选internationalization就可以选择刚刚装的汉化包了</p>
+<!-- more -->
+<h3 id="其它">其它</h3>
+<p>无法编译的话记得将编译器设置为GUN GCC Compiler</p>
+<figure data-type="image" tabindex="1"><img src="https://zilewang7.github.io/post-images/1603892866298.png" alt="" loading="lazy"></figure>
+<p>code::blocks自带的终端xterm非常反人类，可以将终端设置为deepin系统终端</p>
+<figure data-type="image" tabindex="2"><img src="https://zilewang7.github.io/post-images/1603892875014.png" alt="" loading="lazy"></figure>
+<p>提示插件不兼容的话可以直接去目录将那个插件改名或者移动到其它地方<s>删除</s></p>
 
                                 </div>
                     </article>
@@ -116,9 +145,9 @@
                     
                         <div class="next-post">
                             <div class="next">下一篇</div>
-                            <a href="https://zilewang7.github.io/post/zhen-bu-cuo/">
+                            <a href="https://zilewang7.github.io/post/ji-yi-ci-xi-xi-pi-xi-qu-yu-sai/">
                                 <h3 class="post-title">
-                                    针不戳
+                                    记一次西西批西区域赛
                                 </h3>
                             </a>
                         </div>
@@ -131,33 +160,53 @@
                 <!-- right -->
                 <div id="sidebar" class="main-container-right">
                     
-                                <!-- id-card -->
-                                
-    <div class="id_card i-card">
-        <div class="id_card-avatar" style="background-image: url(https://zilewang7.github.io/images/avatar.png?v=1603894321592)">
-        </div>
-        <h1 class="id_card-title">
-            ZileWang7的Blog
-        </h1>
-        <h2 class="id_card-description">
-            等🐓啄完了🍚，🐕舔完了🍜，🔥烧断了🔒
-Bolg就不🕊了
-        </h2>
-        <!--  -->
-        <div class="id_card-sns">
-            <!-- github -->
-            
-                    <!-- twitter -->
-                    
-                            <!-- weibo -->
-                            
-                                    <!-- facebook -->
-                                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#%E5%AE%89%E8%A3%85codeblocks">安装code::blocks</a></li>
+<li><a href="#%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F">安装环境变量</a></li>
+<li><a href="#%E6%B1%89%E5%8C%96%E9%80%89%E8%A3%85">汉化（选装）</a></li>
+<li><a href="#%E5%85%B6%E5%AE%83">其它</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 
         </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
     </div>
     
-                                    
+                            
 
                 </div>
 
