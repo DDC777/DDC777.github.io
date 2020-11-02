@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zilewang7.github.io</id>
     <title>ZileWang7的Blog</title>
-    <updated>2020-10-28T14:12:12.412Z</updated>
+    <updated>2020-11-02T10:03:24.170Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zilewang7.github.io"/>
     <link rel="self" href="https://zilewang7.github.io/atom.xml"/>
@@ -26,8 +26,8 @@ Bolg就不🕊了</subtitle>
 <code>sudo apt-get update</code><br>
 <code>sudo apt-get install codeblocks codeblocks-contrib</code></p>
 <p>若因为依赖安装失败，可通过aptitude安装</p>
-<p><code>sudo apt-get install aptitude</code></p>
-<p><code>sudo aptitude install codeblocks codeblocks-contrib</code></p>
+<p><code>sudo apt-get install aptitude</code><br>
+<code>sudo aptitude install codeblocks codeblocks-contrib</code></p>
 <p>还是安装失败的话试试切换aptitude的不同安装方案</p>
 <!-- more -->
 <h3 id="安装环境变量">安装环境变量</h3>
@@ -35,10 +35,10 @@ Bolg就不🕊了</subtitle>
 <!-- more -->
 <h3 id="汉化选装">汉化（选装）</h3>
 <p>创建中文目录</p>
-<p><code>cd /usr/share/codeblocks/</code></p>
-<p><code>sudo mkdir locale</code></p>
-<p><code>cd locale</code></p>
-<p><code>sudo mkdir zh_CN</code></p>
+<p><code>cd /usr/share/codeblocks/</code><br>
+<code>sudo mkdir locale</code><br>
+<code>cd locale</code><br>
+<code>sudo mkdir zh_CN</code></p>
 <p>语言包链接：https://pan.baidu.com/s/1yZsSk9ZFqVx7cn02nI6M_g<br>
 提取码：DDC5</p>
 <p>将mo后缀的语言包移动到/usr/share/codeblocks/locale/zh_CN</p>
