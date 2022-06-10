@@ -1,23 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://DDC777.github.io</id>
-    <title>ZileWang7的Blog</title>
-    <updated>2022-06-10T08:43:49.680Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://DDC777.github.io"/>
-    <link rel="self" href="https://DDC777.github.io/atom.xml"/>
-    <subtitle>等🐓啄完了🍚，🐕舔完了🍜，🔥烧断了🔒
-Bolg就不🕊了</subtitle>
-    <logo>https://DDC777.github.io/images/avatar.png</logo>
-    <icon>https://DDC777.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2022, ZileWang7的Blog</rights>
-    <entry>
-        <title type="html"><![CDATA[面经笔记]]></title>
-        <id>https://DDC777.github.io/post/mian-jing-bi-ji/</id>
-        <link href="https://DDC777.github.io/post/mian-jing-bi-ji/">
-        </link>
-        <updated>2022-06-10T08:36:50.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="html">HTML</h2>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>
+    面经笔记 | ZileWang7的Blog
+</title>
+<link rel="shortcut icon" href="https://DDC777.github.io/favicon.ico?v=1654850621748">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://DDC777.github.io/styles/main.css">
+<!-- js -->
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://DDC777.github.io/media/js/jquery.sticky-sidebar.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+
+
+        
+</head>
+
+<body>
+    <div class="main">
+        <div class="header">
+    <div class="nav">
+        <div class="logo">
+            <a href="https://DDC777.github.io">
+                <img class="avatar" src="https://DDC777.github.io/images/avatar.png?v=1654850621748" alt="">
+            </a>
+            <div class="site-title">
+                <h1>
+                    ZileWang7的Blog
+                </h1>
+            </div>
+        </div>
+        <span class="menu-btn fa fa-align-justify"></span>
+        <div class="menu-container">
+            <ul>
+                
+                    
+                            <li>
+                                <a href="/" class="menu">
+                                    首页
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/archives" class="menu">
+                                    归档
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/tags" class="menu">
+                                    标签
+                                </a>
+                            </li>
+                            
+                                
+                    
+                            <li>
+                                <a href="/post/about" class="menu">
+                                    关于
+                                </a>
+                            </li>
+                            
+                                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $(".menu-btn").click(function() {
+            $(".menu-container").slideToggle();
+        });
+        $(window).resize(function() {
+
+            if (window.matchMedia('(min-width: 960px)').matches) {
+                $(".menu-container").css('display', 'block')
+            } else {
+                $(".menu-container").css('display', 'none')
+            }
+
+        });
+    });
+</script>
+
+            <div id="main-content" class="post-detail main-container">
+                <!-- left -->
+                <div id="content" class="main-container-left">
+                    <article class="post i-card">
+                        <h2 class="post-title">
+                            面经笔记
+                        </h2>
+                        <div class="post-info">
+                            <time class="post-time">2022-06-10</time>
+                            
+                                <a href="https://DDC777.github.io/tag/Q85lVW1jZ/" class="post-tag i-tag
+                            i-tag-info">
+                            #Note
+                        </a>
+                                
+                        </div>
+                        
+                                <div class="post-content">
+                                    <h2 id="html">HTML</h2>
 <h4 id="html-语义化">HTML 语义化</h4>
 <p>使用语义化标签而不是div, span</p>
 <p>作用:</p>
@@ -984,860 +1079,186 @@ p[0].addEventListener('drag', throttle(
 <p><strong>XSRF 预防</strong></p>
 <p>使用post接口<br>
 增加验证，例如密码、短信验证码、指纹等</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JAVA+WindowBuilder+MySQL实现饭店管理系统]]></title>
-        <id>https://DDC777.github.io/post/javawindowbuildermysql-shi-xian-fan-dian-guan-li-xi-tong/</id>
-        <link href="https://DDC777.github.io/post/javawindowbuildermysql-shi-xian-fan-dian-guan-li-xi-tong/">
-        </link>
-        <updated>2021-07-19T00:49:40.000Z</updated>
-        <content type="html"><![CDATA[<p>本项目为我的大二课程设计项目，仅供学习使用！</p>
-<p><strong>目 录</strong></p>
-<p><a href="#_Toc77372815">1   项目概述... 1</a></p>
-<p><a href="#_Toc77372816">2   需求分析... 2</a></p>
-<p><a href="#_Toc77372817">2.1   总体目标... 2</a></p>
-<p><a href="#_Toc77372818">2.2   具体目标... 2</a></p>
-<p><a href="#_Toc77372819">2.3   系统功能建模... 2</a></p>
-<p><a href="#_Toc77372820">2.3.1   系统数据流程图... 2</a></p>
-<p><a href="#_Toc77372821">2.3.2   数据字典... 3</a></p>
-<p><a href="#_Toc77372822">2.4   系统数据模型... 4</a></p>
-<p><a href="#_Toc77372823">3   概要设计... 6</a></p>
-<p><a href="#_Toc77372824">3.1   体系结构设计... 6</a></p>
-<p><a href="#_Toc77372825">3.2   数据库设计... 6</a></p>
-<p><a href="#_Toc77372826">3.2.1   关系模式设计... 6</a></p>
-<p><a href="#_Toc77372827">3.2.2   物理表结构设计... 7</a></p>
-<p><a href="#_Toc77372828">4   详细设计... 10</a></p>
-<p><a href="#_Toc77372829">4.1   登录模块... 10</a></p>
-<p><a href="#_Toc77372830">4.2   点餐模块... 11</a></p>
-<p><a href="#_Toc77372831">5   系统实现... 12</a></p>
-<p><a href="#_Toc77372832">5.1   实现技术... 12</a></p>
-<p><a href="#_Toc77372833">5.2   应用程序配置... 12</a></p>
-<p><a href="#_Toc77372834">5.3   业务逻辑代码... 12</a></p>
-<p><a href="#_Toc77372835">5.4   数据库代码... 23</a></p>
-<p><a href="#_Toc77372836">6   结束语... 29</a></p>
-<p><a href="#_Toc77372837">7   参考文献... 30</a></p>
-<h1 id="1-项目概述">1    项目概述</h1>
-<p>本项目是一个饭店管理系统。</p>
-<p>主要实现了用户的登录，开台，点餐，结算等功能。</p>
-<p>管理端实现了订单管理，餐台管理，用户管理和菜品管理。</p>
-<p>可以利用本系统对餐厅，饭店的点餐，订单和菜品进行系统的管理，提升饭店餐厅的管理效率。</p>
-<p>主程序和GUI：使用IDEA开发的JAVA程序</p>
-<p>数据库：使用Navicat管理的MySQL数据库</p>
-<p>连接：使用JDBC驱动进行数据库与Java程序连接</p>
-<h1 id="2-需求分析">2    需求分析</h1>
-<h2 id="21-总体目标">2.1 总体目标</h2>
-<p>系统目标：</p>
-<p>1.窗体界面设计友好、美观</p>
-<p>2.基本信息管理方便、快捷</p>
-<p>3.具有良好的数据查询功能,方便管理员和用户的操作</p>
-<p>4.系统运行稳定、系统数据安全可靠</p>
-<p>5.最大限度地实现系统的易维护性和易操作性</p>
-<h2 id="22-具体目标">2.2 具体目标</h2>
-<p>具体目标：</p>
-<p>1.登录：输入账户名和密码，进行登录。</p>
-<p>2.基本信息管理：用户管理,餐台管理，菜品分类管理,菜品管理。</p>
-<p>3.点餐管理：点餐（开台点餐，点餐信息增删改查）</p>
-<p>4.结算管理：结算，结算后餐台空闲</p>
-<p>5.统计查询：菜品销售查询，收入统计</p>
-<h2 id="23-系统功能建模">2.3 系统功能建模</h2>
-<h3 id="231-系统数据流程图">2.3.1      系统数据流程图</h3>
-<p>详细数据流图如图2-1所示。</p>
-<figure data-type="image" tabindex="1"><img src="file:///C:/Users/DDC/AppData/Local/Temp/msohtmlclip1/01/clip_image002.gif" alt="img" loading="lazy"></figure>
-<p>图 2‑1</p>
-<p>此DFD图有两个接口，分别是用户和管理员</p>
-<p>用户输出：订座信息，点餐信息，付款信息</p>
-<p>管理员输出：用户管理信息，菜品变动信息，餐台管理信息，订单管理信息</p>
-<p>用户收到：餐台信息，菜品信息，发票信息，用户状态信息</p>
-<p>管理员收到：销售数据</p>
-<h3 id="232-数据字典">2.3.2      数据字典</h3>
-<p>数据字典如图 2-2所示。</p>
-<figure data-type="image" tabindex="2"><img src="file:///C:/Users/DDC/AppData/Local/Temp/msohtmlclip1/01/clip_image004.gif" alt="img" loading="lazy"></figure>
-<p>图 2‑2</p>
-<p>主要数据有：用户信息、管理员信息，菜品信息，餐台信息，菜单信息</p>
-<p>这些数据分别存储于用户数据库、管理员数据库、菜品数据库、餐台数据库、菜单数据库</p>
-<h2 id="24-系统数据模型">2.4 系统数据模型</h2>
-<p>系统数据模型，即E-R图，如图 2-3所示。</p>
-<figure data-type="image" tabindex="3"><img src="file:///C:/Users/DDC/AppData/Local/Temp/msohtmlclip1/01/clip_image006.gif" alt="img" loading="lazy"></figure>
-<p>图 2‑3</p>
-<p>实体有：用户，订单，菜单，菜品，餐台，管理员</p>
-<p>实体关系：</p>
-<p>用户-点餐-订单：一对多</p>
-<p>订单-占用-餐台：一对一</p>
-<p>订单-关联-菜单：一对多</p>
-<p>菜单-包含-菜品：多对多</p>
-<p>管理员-处理-餐台/菜单：三实体多对多</p>
-<h1 id="3-概要设计">3    概要设计</h1>
-<h2 id="31-体系结构设计">3.1 体系结构设计</h2>
-<p>系统功能模块图如图 3-1所示。</p>
-<figure data-type="image" tabindex="4"><img src="file:///C:/Users/DDC/AppData/Local/Temp/msohtmlclip1/01/clip_image008.gif" alt="img" loading="lazy"></figure>
-<p>图 3‑1</p>
-<p>饭店管理系统分用户和管理员两个模块。</p>
-<p>用户模块中又包含订座、点餐、结账三个模块；</p>
-<p>前两个对应了餐台选择和菜品选择模块。</p>
-<p>管理员模块中包含用户管理，菜品管理和订单管理模块</p>
-<p>分别包含注册、删除；菜品、库存增删；订单取消、删除模块。</p>
-<h2 id="32-数据库设计">3.2 数据库设计</h2>
-<h3 id="321-关系模式设计">3.2.1      关系模式设计</h3>
-<p>User (UID, UName, Password, Tele, Point)</p>
-<p>Admin (AID, AName, Password, Tele)</p>
-<p>Order (OID, SID, OMID, Note, Price, isPay)</p>
-<p>OrderMenu (OMID, OID, FID)</p>
-<p>Seat (SID, Anum,State)</p>
-<p>Food (FID, FName, Class, Price, Inventory)</p>
-<h3 id="322-物理表结构设计">3.2.2      物理表结构设计</h3>
-<p>管理员设计参数见表 3-1所示。</p>
-<p>表 3‑1 管理员表</p>
-<table>
-<thead>
-<tr>
-<th>列含义</th>
-<th>列标示</th>
-<th>类型</th>
-<th>长度</th>
-<th>完整性约束</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>管理员ID</td>
-<td>AID</td>
-<td>Int</td>
-<td>2</td>
-<td>主键</td>
-</tr>
-<tr>
-<td>管理员名</td>
-<td>AName</td>
-<td>Varchar</td>
-<td>20</td>
-<td>非空</td>
-</tr>
-<tr>
-<td>密码</td>
-<td>Password</td>
-<td>Varchar</td>
-<td>30</td>
-<td>非空</td>
-</tr>
-<tr>
-<td>电话</td>
-<td>Tele</td>
-<td>Char</td>
-<td>11</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>用户设计参数见表 3-2所示。</p>
-<p>表 3‑2 用户表</p>
-<table>
-<thead>
-<tr>
-<th>列含义</th>
-<th>列标示</th>
-<th>类型</th>
-<th>长度</th>
-<th>完整性约束</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>用户ID</td>
-<td>UID</td>
-<td>Int</td>
-<td>10</td>
-<td>主键</td>
-</tr>
-<tr>
-<td>用户名</td>
-<td>UName</td>
-<td>Varchar</td>
-<td>20</td>
-<td>非空</td>
-</tr>
-<tr>
-<td>密码</td>
-<td>Password</td>
-<td>Varchar</td>
-<td>30</td>
-<td>非空</td>
-</tr>
-<tr>
-<td>电话</td>
-<td>Tele</td>
-<td>Char</td>
-<td>11</td>
-<td></td>
-</tr>
-<tr>
-<td>积分</td>
-<td>Point</td>
-<td>Int</td>
-<td>225</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>餐台设计参数见表 3-3所示。</p>
-<p>表 3‑3 餐台表</p>
-<table>
-<thead>
-<tr>
-<th>列含义</th>
-<th>列标示</th>
-<th>类型</th>
-<th>长度</th>
-<th>完整性约束</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>餐台号</td>
-<td>SID</td>
-<td>Int</td>
-<td>3</td>
-<td>主键</td>
-</tr>
-<tr>
-<td>座位数</td>
-<td>Anum</td>
-<td>Int</td>
-<td>2</td>
-<td>非空</td>
-</tr>
-<tr>
-<td>是否空闲</td>
-<td>State</td>
-<td>Int</td>
-<td>1</td>
-<td>非空</td>
-</tr>
-</tbody>
-</table>
-<p>菜品设计参数见表 3-4所示。</p>
-<p>表 3‑4 菜品表</p>
-<table>
-<thead>
-<tr>
-<th>列含义</th>
-<th>列标示</th>
-<th>类型</th>
-<th>长度</th>
-<th>完整性约束</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>菜品ID</td>
-<td>FID</td>
-<td>Int</td>
-<td>4</td>
-<td>主键</td>
-</tr>
-<tr>
-<td>菜品名</td>
-<td>FName</td>
-<td>Varchar</td>
-<td>20</td>
-<td>非空</td>
-</tr>
-<tr>
-<td>类别</td>
-<td>Class</td>
-<td>Varchar</td>
-<td>20</td>
-<td></td>
-</tr>
-<tr>
-<td>价格</td>
-<td>Price</td>
-<td>Decimal</td>
-<td>5-2</td>
-<td></td>
-</tr>
-<tr>
-<td>库存</td>
-<td>Inventory</td>
-<td>Int</td>
-<td>5</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>订单设计参数见表 3-5所示。</p>
-<p>表 3‑5 订单表</p>
-<table>
-<thead>
-<tr>
-<th>列含义</th>
-<th>列标示</th>
-<th>类型</th>
-<th>长度</th>
-<th>完整性约束</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>订单号</td>
-<td>OID</td>
-<td>Int</td>
-<td>10</td>
-<td>主键</td>
-</tr>
-<tr>
-<td>备注</td>
-<td>Note</td>
-<td>Varchar</td>
-<td>225</td>
-<td></td>
-</tr>
-<tr>
-<td>价格</td>
-<td>Price</td>
-<td>Decimal</td>
-<td>10-2</td>
-<td></td>
-</tr>
-<tr>
-<td>付款状态</td>
-<td>isPay</td>
-<td>Int</td>
-<td>1</td>
-<td>非空</td>
-</tr>
-<tr>
-<td>座位号</td>
-<td>SID</td>
-<td>Int</td>
-<td>3</td>
-<td>外键</td>
-</tr>
-</tbody>
-</table>
-<p>菜单设计参数见表 3-6所示。</p>
-<p>表 3‑6 菜单表</p>
-<table>
-<thead>
-<tr>
-<th>列含义</th>
-<th>列标示</th>
-<th>类型</th>
-<th>长度</th>
-<th>完整性约束</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>菜号</td>
-<td>OMID</td>
-<td>Int</td>
-<td>10</td>
-<td>主键</td>
-</tr>
-<tr>
-<td>订单号</td>
-<td>OID</td>
-<td>Int</td>
-<td>10</td>
-<td>外键</td>
-</tr>
-<tr>
-<td>菜品号</td>
-<td>FID</td>
-<td>Int</td>
-<td>4</td>
-<td>外键</td>
-</tr>
-</tbody>
-</table>
-<h1 id="4-详细设计">4    详细设计</h1>
-<h2 id="41-登录模块">4.1 登录模块</h2>
-<p>登录模块如图 4-1所示。</p>
-<figure data-type="image" tabindex="5"><img src="file:///C:/Users/DDC/AppData/Local/Temp/msohtmlclip1/01/clip_image010.gif" alt="img" loading="lazy"></figure>
-<p>图 4‑1</p>
-<p>在登录时，先判断是否为管理员，若为管理员，直接进行登录验证，否则调用用户管理系统操作。输入账号密码时，先后判断是否为空，账号是否存在，密码是否对应。当都通过时，登录成功，否则重新输入。</p>
-<h2 id="42-点餐模块">4.2 点餐模块</h2>
-<p>点餐模块如图 4-2所示。</p>
-<figure data-type="image" tabindex="6"><img src="file:///C:/Users/DDC/AppData/Local/Temp/msohtmlclip1/01/clip_image012.gif" alt="img" loading="lazy"></figure>
-<p>图 4‑2</p>
-<p>点餐时，先查看并选择数据库中的菜品，然后将菜品添加到清单中，进行确认订单后，将清单信息更新到订单数据库</p>
-<h1 id="5-系统实现">5    系统实现</h1>
-<h2 id="51-实现技术">5.1 实现技术</h2>
-<p>使用Ecilpse + WindowBuilder进行GUI和JAVA程序的开发</p>
-<p>使用Navicat对MYSQL数据库进行管理</p>
-<h2 id="52-应用程序配置">5.2 应用程序配置</h2>
-<p>JAVASE 1.7的开发及运行环境</p>
-<p>MYSQL数据库版本为5.7.33</p>
-<p>5.1.47的JDBC驱动进行JAVA程序和数据库的连接</p>
-<h2 id="53-业务逻辑代码">5.3 业务逻辑代码</h2>
-<p><strong>Hms.model:</strong></p>
-<p>*<strong>LoginContrl.Java*</strong></p>
-<p>//登录控制</p>
-<p>package hms.model;</p>
-<p>import java.sql.*;</p>
-<p>import hms.util.DBUtil;</p>
-<p>public class LoginControl {</p>
-<p>public static boolean isAdmin;</p>
-<p>public static int id;</p>
-<p>//验证密码</p>
-<p>public static boolean LoginCheck(boolean isAdmin, int id, String password) throws ClassNotFoundException, SQLException {</p>
-<p>​     String SQL = &quot;SELECT password FROM &quot;;</p>
-<p>​     if (!isAdmin) {</p>
-<p>​        SQL = SQL + &quot;<code>user</code> where uid = &quot; + id;</p>
-<p>​     } else {</p>
-<p>​        isAdmin = true;</p>
-<p>​        SQL = SQL + &quot;<code>admin</code> where aid = &quot; + id;</p>
-<p>​     }</p>
-<p>​     ResultSet resultSet = DBUtil.query(SQL);</p>
-<p>​     if (!resultSet.next()) {</p>
-<p>​        try {</p>
-<p>​            DBUtil.closeConnection();</p>
-<p>​        } catch (Exception e) {</p>
-<p>​            e.printStackTrace();</p>
-<p>​        }</p>
-<p>​        return false;</p>
-<p>​     } else if (!resultSet.getObject(&quot;password&quot;).equals(password)) {</p>
-<p>​        try {</p>
-<p>​            DBUtil.closeConnection();</p>
-<p>​        } catch (Exception e) {</p>
-<p>​            e.printStackTrace();</p>
-<p>​        }</p>
-<p>​        return false;</p>
-<p>​     }</p>
-<p>​     try {</p>
-<p>​        DBUtil.closeConnection();</p>
-<p>​     } catch (Exception e) {</p>
-<p>​        e.printStackTrace();</p>
-<p>​     }</p>
-<p>​     LoginControl.id = id;</p>
-<p>​     try {</p>
-<p>​        ReadInformation();</p>
-<p>​     } catch (Exception e) {</p>
-<p>​        e.printStackTrace();</p>
-<p>​     }</p>
-<p>​     System.out.println(&quot;\nSucesss!\nisAdmin:&quot; + isAdmin + &quot;\nid:&quot; + LoginControl.id);</p>
-<p>​     return true;</p>
-<p>}</p>
-<p>//信息读入</p>
-<p>public static void ReadInformation() throws Exception {</p>
-<p>​     if (isAdmin) {</p>
-<p>​     } else {</p>
-<p>​        User.userInformationRead(id);</p>
-<p>​     }</p>
-<p>}</p>
-<p>}</p>
-<p>*<strong>Seat.Java*</strong></p>
-<p>//餐台管理</p>
-<p>package hms.model;</p>
-<p>import java.sql.*;</p>
-<p>import hms.util.DBUtil;</p>
-<p>public class Seat {</p>
-<p>public static int[] SID = new int[100];</p>
-<p>public static int[] Anum = new int[100];</p>
-<p>public static int[] State = new int[100];</p>
-<p>public static int USID;</p>
-<p>public static int UAnum;</p>
-<p>//座位获取</p>
-<p>public static void getSeats() throws Exception {</p>
-<p>​     String SQL = &quot;SELECT * FROM seat&quot;;</p>
-<p>​     ResultSet resultSet = DBUtil.query(SQL);</p>
-<p>​     for (int i = 1; resultSet.next(); i++) {</p>
-<p>​        SID[i] = resultSet.getInt(&quot;SID&quot;);</p>
-<p>​        Anum[i] = resultSet.getInt(&quot;Anum&quot;);</p>
-<p>​        State[i] = resultSet.getInt(&quot;State&quot;);</p>
-<p>​     }</p>
-<p>​     DBUtil.closeConnection();</p>
-<p>}</p>
-<p>//剩余座位量获取</p>
-<p>public static int remainingSeats(int Anum) throws Exception {</p>
-<p>​     int num = 0;</p>
-<p>​     String SQL = &quot;SELECT * FROM seat where Anum =&quot;;</p>
-<p>​     SQL = SQL + &quot; &quot; + Anum;</p>
-<p>​     ResultSet resultSet = DBUtil.query(SQL);</p>
-<p>​     while (resultSet.next()) {</p>
-<p>​        if(resultSet.getInt(&quot;State&quot;) == 0) {</p>
-<p>​            num++;</p>
-<p>​        }</p>
-<p>​     }</p>
-<p>​     DBUtil.closeConnection();</p>
-<p>​     return num;</p>
-<p>}</p>
-<p>//确认座位</p>
-<p>public static boolean SeatConfirm() throws Exception {</p>
-<p>​     String SQL = &quot;SELECT * FROM seat WHERE Anum = &quot;;</p>
-<p>​     SQL = SQL + UAnum + &quot; AND State = 0&quot;;</p>
-<p>​     ResultSet resultSet = DBUtil.query(SQL);</p>
-<p>​     resultSet.next();</p>
-<p>​     try {</p>
-<p>​        USID = resultSet.getInt(&quot;SID&quot;);</p>
-<p>​     } catch (Exception e) {</p>
-<p>​        return false;</p>
-<p>​     }</p>
-<p>​     String SQL2 = &quot;UPDATE seat SET State = 1 WHERE SID = &quot;;</p>
-<p>​     SQL2 = SQL2 + USID;</p>
-<p>​     DBUtil.update(SQL2);</p>
-<p>​     DBUtil.closeConnection();</p>
-<p>​     return true;</p>
-<p>}</p>
-<p>//座位状态更改</p>
-<p>public static void StateChange(int State,int SID) throws Exception {</p>
-<p>​     String SQL = &quot;UPDATE seat SET State = &quot;;</p>
-<p>​     SQL = SQL + State +&quot; WHERE SID = &quot;+ SID;</p>
-<p>​     DBUtil.update(SQL);</p>
-<p>​     DBUtil.closeConnection();</p>
-<p>}</p>
-<p>}</p>
-<p>*<strong>Food.Java*</strong></p>
-<p>//菜品管理</p>
-<p>package hms.model;</p>
-<p>import java.sql.ResultSet;</p>
-<p>import javax.swing.ImageIcon;</p>
-<p>import hms.util.DBUtil;</p>
-<p>import hms.view.OrderFrame;</p>
-<p>public class Food {</p>
-<p>//菜名获取</p>
-<p>public static String[] getFoodsName(String Class) throws Exception {</p>
-<p>​     String[] list = new String[20];</p>
-<p>​     String SQL = &quot;SELECT FName FROM Food WHERE Class like '&quot;;</p>
-<p>​     SQL = SQL + Class +&quot;'&quot;;</p>
-<p>​     ResultSet resultSet = DBUtil.query(SQL);</p>
-<p>​     for (int i = 0; resultSet.next(); i++) {</p>
-<p>​        list[i] = resultSet.getString(&quot;FName&quot;);</p>
-<p>​     }</p>
-<p>​     DBUtil.closeConnection();</p>
-<p>​     return list;</p>
-<p>}</p>
-<p>//菜品图片读入</p>
-<p>public static ImageIcon getIcon(int FID) {</p>
-<p>​     try {</p>
-<p>​        ImageIcon testtt = new ImageIcon(OrderFrame.class.getResource(&quot;/img/&quot; + FID + &quot;.jpg&quot;));</p>
-<p>​     } catch (Exception e) {</p>
-<p>​        return null;</p>
-<p>​     }</p>
-<p>​     ImageIcon icon = new ImageIcon(OrderFrame.class.getResource(&quot;/img/&quot; + FID + &quot;.jpg&quot;));</p>
-<p>​     return icon;</p>
-<p>}</p>
-<p>public static int CFid = 1;</p>
-<p>public static String CFName = &quot;红烧肉&quot;;</p>
-<p>public static float CFPrice = (float) 18.00;</p>
-<p>public static int CFInventory = 35;</p>
-<p>public static int allPrice = 0;</p>
-<p>//菜品选择</p>
-<p>public static void foodChoose(String FName) throws Exception {</p>
-<p>​     String SQL = &quot;SELECT * FROM Food WHERE FName like '&quot;;</p>
-<p>​     SQL = SQL + FName +&quot;'&quot;;</p>
-<p>​     ResultSet resultSet = DBUtil.query(SQL);</p>
-<p>​     while (resultSet.next()) {</p>
-<p>​        CFid = resultSet.getInt(&quot;FID&quot;);</p>
-<p>​        CFName = resultSet.getString(&quot;FName&quot;);</p>
-<p>​        CFPrice = resultSet.getInt(&quot;Price&quot;);</p>
-<p>​        CFInventory = resultSet.getInt(&quot;Inventory&quot;);</p>
-<p>​     }</p>
-<p>​     DBUtil.closeConnection();</p>
-<p>}</p>
-<p>public static String[] orderStrings = new String[20];</p>
-<p>public static int listNum = 0;</p>
-<p>//菜单添加菜品</p>
-<p>public static void addFood() {</p>
-<p>​     orderStrings[listNum] = CFName;</p>
-<p>​     listNum++;</p>
-<p>​     allPrice += CFPrice;</p>
-<p>}</p>
-<p>}</p>
-<p>*<strong>Order.Java*</strong></p>
-<p>//订单管理</p>
-<p>package hms.model;</p>
-<p>import java.sql.ResultSet;</p>
-<p>import hms.util.DBUtil;</p>
-<p>public class Order {</p>
-<p>public static int OID;</p>
-<p>//创建订单</p>
-<p>public static void creatOrder() throws Exception {</p>
-<p>​     int lastOID = 0;</p>
-<p>​     String SQL = &quot;SELECT OID FROM <code>order</code> ORDER BY OID&quot;;</p>
-<p>​     ResultSet resultSet = DBUtil.query(SQL);</p>
-<p>​     while (resultSet.next()) {</p>
-<p>​        lastOID = resultSet.getInt(1);</p>
-<p>​     }</p>
-<p>​     DBUtil.closeConnection();</p>
-<p>​     System.out.println(lastOID);</p>
-<p>​     OID = lastOID + 1;</p>
-<p>​     String SQL2 = &quot;INSERT INTO <code>order</code> (OID,isPay,SID) VALUES ('&quot;;</p>
-<p>​     SQL2 = SQL2 + OID + &quot;','0','&quot; + Seat.USID + &quot;')&quot;;</p>
-<p>​     DBUtil.update(SQL2);</p>
-<p>​     DBUtil.closeConnection();</p>
-<p>}</p>
-<p>public static int OMID;</p>
-<p>//上传订单和菜单</p>
-<p>public static void updateOrder() throws Exception {</p>
-<p>​     int lastOMID = 0;</p>
-<p>​     String SQL = &quot;SELECT OMID FROM <code>ordermenu</code> ORDER BY OMID&quot;;</p>
-<p>​     ResultSet resultSet = DBUtil.query(SQL);</p>
-<p>​     while (resultSet.next()) {</p>
-<p>​        lastOMID = resultSet.getInt(1);</p>
-<p>​     }</p>
-<p>​     DBUtil.closeConnection();</p>
-<p>​     System.out.println(lastOMID);</p>
-<p>​     OMID = lastOMID + 1;</p>
-<p>​     for (int i = 0; Food.orderStrings[i] != null; i++) {</p>
-<p>​        int FID = 0;</p>
-<p>​        String SQL3 = &quot;SELECT FID FROM Food WHERE FName like '&quot;;</p>
-<p>​        SQL3 = SQL3 + Food.orderStrings[i] + &quot;'&quot;;</p>
-<p>​        ResultSet resultSet2 = DBUtil.query(SQL3);</p>
-<p>​        while (resultSet2.next()) {</p>
-<p>​            FID = resultSet2.getInt(&quot;FID&quot;);</p>
-<p>​        }</p>
-<p>​        String SQL2 = &quot;INSERT INTO <code>ordermenu</code> (OMID,FID,OID) VALUES ('&quot;;</p>
-<p>​        SQL2 = SQL2 + OMID + &quot;','&quot; + FID + &quot;','&quot; + OID + &quot;')&quot;;</p>
-<p>​        DBUtil.update(SQL2);</p>
-<p>​        OMID++;</p>
-<p>​        DBUtil.closeConnection();</p>
-<p>​     }</p>
-<p>​     String SQL4 = &quot;UPDATE <code>order</code> SET Price =&quot;;</p>
-<p>​     SQL4 = SQL4 + Food.allPrice + &quot; WHERE OID = &quot; + OID;</p>
-<p>​     DBUtil.update(SQL4);</p>
-<p>​     DBUtil.closeConnection();</p>
-<p>}</p>
-<p>//结算处理</p>
-<p>public static void payDeal() throws Exception {</p>
-<p>​     String SQL = &quot;UPDATE <code>order</code> SET isPay = 1 WHERE OID = &quot;;</p>
-<p>​     SQL = SQL + OID;</p>
-<p>​     DBUtil.update(SQL);</p>
-<p>​     DBUtil.closeConnection();</p>
-<p>​     String SQL2 = &quot;UPDATE <code>user</code> SET Point = Point + &quot;;</p>
-<p>​     SQL2 = SQL2 + Food.allPrice + &quot; WHERE UID = &quot; + User.UID;</p>
-<p>​     DBUtil.update(SQL2);</p>
-<p>​     DBUtil.closeConnection();</p>
-<p>}</p>
-<p>//根据订单号获取座位号</p>
-<p>public static int getSID(int OID) throws Exception {</p>
-<p>​     int SID = 0;</p>
-<p>​     String SQL = &quot;SELECT SID FROM <code>order</code> where OID = &quot;;</p>
-<p>​     SQL = SQL + OID;</p>
-<p>​     ResultSet resultSet = DBUtil.query(SQL);</p>
-<p>​     while (resultSet.next()) {</p>
-<p>​        SID = resultSet.getInt(1);</p>
-<p>​     }</p>
-<p>​     return SID;</p>
-<p>}</p>
-<p>//订单删除</p>
-<p>public static void OrderDelet(int OID) throws Exception {</p>
-<p>​     String SQL = &quot;DELETE FROM <code>order</code> WHERE OID = &quot;;</p>
-<p>​     SQL = SQL + OID;</p>
-<p>​     DBUtil.update(SQL);</p>
-<p>​     DBUtil.closeConnection();</p>
-<p>}</p>
-<p>//获取总营业额</p>
-<p>public static float getTotalTurnover() throws Exception {</p>
-<p>​     float TotalTurnover = 0;</p>
-<p>​     String SQL = &quot;SELECT Price From <code>order</code>&quot;;</p>
-<p>​     ResultSet resultSet = DBUtil.query(SQL);</p>
-<p>​     while (resultSet.next()) {</p>
-<p>​        TotalTurnover += resultSet.getFloat(1);</p>
-<p>​     }</p>
-<p>​     return TotalTurnover;</p>
-<p>}</p>
-<p>//获取总销量</p>
-<p>public static int getTotalSales() throws Exception {</p>
-<p>​     int TotalSales = 0;</p>
-<p>​     String SQL = &quot;SELECT OMID From <code>ordermenu</code>&quot;;</p>
-<p>​     ResultSet resultSet = DBUtil.query(SQL);</p>
-<p>​     while (resultSet.next()) {</p>
-<p>​        TotalSales++;</p>
-<p>​     }</p>
-<p>​     return TotalSales;</p>
-<p>}</p>
-<p>}</p>
-<h2 id="54-数据库代码">5.4 数据库代码</h2>
-<p><strong>Hms.util</strong></p>
-<p>*<strong>DBUtil.Java*</strong></p>
-<p>//数据库连接与操作的抽象</p>
-<p>package hms.util;</p>
-<p>import java.sql.*;</p>
-<p>public class DBUtil {</p>
-<p>public static final String DBDRIVER = &quot;com.mysql.jdbc.Driver&quot;;</p>
-<p>public static final String DBURL = &quot;jdbc:mysql://localhost:3306/resmsc?useSSL=false&amp;useUnicode=true&amp;characterEncoding=UTF-8&quot;;</p>
-<p>public static final String DBUSER = &quot;LNTU_DDC&quot;;</p>
-<p>public static final String DBPASS = &quot;jtcsm&quot;;</p>
-<p>public static Connection connection = null;</p>
-<p>//获取并返回连接</p>
-<p>public static Connection getConnection() throws ClassNotFoundException, SQLException {</p>
-<p>​     Connection con = null;</p>
-<p>​     try {</p>
-<p>​        Class.forName(DBDRIVER);</p>
-<p>​     } catch (ClassNotFoundException e) {</p>
-<p>​        e.printStackTrace();</p>
-<p>​     }</p>
-<p>​     try {</p>
-<p>​        con = DriverManager.getConnection(DBURL, DBUSER, DBPASS);</p>
-<p>​     } catch (SQLException e) {</p>
-<p>​        e.printStackTrace();</p>
-<p>​     }</p>
-<p>​     System.out.println(&quot;connect to db&quot;);</p>
-<p>​     return con;</p>
-<p>}</p>
-<p>//数据库查找</p>
-<p>public static ResultSet query(String sql) throws ClassNotFoundException, SQLException {</p>
-<p>​     connection = getConnection();</p>
-<p>​     Statement statement = connection.createStatement();</p>
-<p>​     ResultSet resultSet = statement.executeQuery(sql);</p>
-<p>​     return resultSet;</p>
-<p>}</p>
-<p>//数据库更新</p>
-<p>public static int update(String sql) throws ClassNotFoundException, SQLException {</p>
-<p>​     connection = getConnection();</p>
-<p>​     Statement statement = connection.createStatement();</p>
-<p>​     int UpdateLine = statement.executeUpdate(sql);</p>
-<p>​     return UpdateLine;</p>
-<p>}</p>
-<p>//关闭连接</p>
-<p>public static void closeConnection() throws Exception {</p>
-<p>​     connection.close();</p>
-<p>}</p>
-<p>}</p>
-<p><strong>SQL****建表语句</strong></p>
-<p><strong>Admin</strong></p>
-<p>DROP TABLE IF EXISTS <code>admin</code>;</p>
-<p>CREATE TABLE <code>admin</code> (</p>
-<p><code>AID</code> int(2) NOT NULL,</p>
-<p><code>AName</code> varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,</p>
-<p><code>Password</code> varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,</p>
-<p><code>Tele</code> char(11) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,</p>
-<p>PRIMARY KEY (<code>AID</code>) USING BTREE</p>
-<p>) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;</p>
-<p>SET FOREIGN_KEY_CHECKS = 1;</p>
-<p><strong>Food</strong></p>
-<p>DROP TABLE IF EXISTS <code>food</code>;</p>
-<p>CREATE TABLE <code>food</code> (</p>
-<p><code>FID</code> int(4) NOT NULL,</p>
-<p><code>FName</code> varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,</p>
-<p><code>Class</code> varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,</p>
-<p><code>Price</code> decimal(5, 2) NULL DEFAULT NULL,</p>
-<p><code>Inventory</code> int(5) NULL DEFAULT NULL,</p>
-<p>PRIMARY KEY (<code>FID</code>) USING BTREE</p>
-<p>) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;</p>
-<p>SET FOREIGN_KEY_CHECKS = 1;</p>
-<p><strong>Order</strong></p>
-<p>DROP TABLE IF EXISTS <code>order</code>;</p>
-<p>CREATE TABLE <code>order</code> (</p>
-<p><code>OID</code> int(10) NOT NULL,</p>
-<p><code>Note</code> varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,</p>
-<p><code>Price</code> decimal(10, 2) NULL DEFAULT NULL,</p>
-<p><code>isPay</code> int(1) NOT NULL,</p>
-<p><code>SID</code> int(3) NULL DEFAULT NULL,</p>
-<p>PRIMARY KEY (<code>OID</code>) USING BTREE,</p>
-<p>INDEX <code>SID</code>(<code>SID</code>) USING BTREE,</p>
-<p>CONSTRAINT <code>SID</code> FOREIGN KEY (<code>SID</code>) REFERENCES <code>seat</code> (<code>SID</code>) ON DELETE SET NULL ON UPDATE RESTRICT</p>
-<p>) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;</p>
-<p>SET FOREIGN_KEY_CHECKS = 1;</p>
-<p><strong>Ordermenu</strong></p>
-<p>DROP TABLE IF EXISTS <code>ordermenu</code>;</p>
-<p>CREATE TABLE <code>ordermenu</code> (</p>
-<p><code>OMID</code> int(10) NOT NULL,</p>
-<p><code>FID</code> int(4) NULL DEFAULT NULL,</p>
-<p><code>OID</code> int(10) NULL DEFAULT NULL,</p>
-<p>PRIMARY KEY (<code>OMID</code>) USING BTREE,</p>
-<p>INDEX <code>FID</code>(<code>FID</code>) USING BTREE,</p>
-<p>INDEX <code>OID</code>(<code>OID</code>) USING BTREE,</p>
-<p>CONSTRAINT <code>FID</code> FOREIGN KEY (<code>FID</code>) REFERENCES <code>food</code> (<code>FID</code>) ON DELETE SET NULL ON UPDATE RESTRICT,</p>
-<p>CONSTRAINT <code>OID</code> FOREIGN KEY (<code>OID</code>) REFERENCES <code>order</code> (<code>OID</code>) ON DELETE SET NULL ON UPDATE RESTRICT</p>
-<p>) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;</p>
-<p>SET FOREIGN_KEY_CHECKS = 1;</p>
-<p><strong>Seat</strong></p>
-<p>DROP TABLE IF EXISTS <code>seat</code>;</p>
-<p>CREATE TABLE <code>seat</code> (</p>
-<p><code>SID</code> int(3) NOT NULL,</p>
-<p><code>Anum</code> int(2) NOT NULL,</p>
-<p><code>State</code> int(1) NOT NULL,</p>
-<p>PRIMARY KEY (<code>SID</code>) USING BTREE</p>
-<p>) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;</p>
-<p>SET FOREIGN_KEY_CHECKS = 1;</p>
-<p><strong>User</strong></p>
-<p>DROP TABLE IF EXISTS <code>user</code>;</p>
-<p>CREATE TABLE <code>user</code> (</p>
-<p><code>UID</code> int(10) NOT NULL,</p>
-<p><code>UName</code> varchar(20) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,</p>
-<p><code>Password</code> varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,</p>
-<p><code>Tele</code> char(11) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,</p>
-<p><code>Point</code> int(20) UNSIGNED NULL DEFAULT NULL,</p>
-<p>PRIMARY KEY (<code>UID</code>) USING BTREE</p>
-<p>) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;</p>
-<p>SET FOREIGN_KEY_CHECKS = 1;</p>
-<h1 id="6-结束语">6    结束语</h1>
-<p>此次开发使我能够熟练的使用WindowBuilder进行GUI窗口设计，能够熟练的使用面向对象的思想进行Java程序的开发，并且学会了JDBC能够使用JAVA程序对数据库进行增删改查，还加强了对SQL语句的熟练程度，能够快速的对数据库进行操作。</p>
-<p>我所开发的饭店管理系统以对用户端的体验为开发方向着重开发，当用户进行点餐时，仅仅进行单击操作就可以完整的进行选座，选餐，支付这一整套就餐步骤，极大的提升了用户体验；但由于时间关系在管理端还存在未开发完毕的功能，在时间充沛的情况下我会进行改进，并且以后提高自己的开发速度以避免再次出现这种情况。</p>
-<h1 id="7-参考文献">7    参考文献</h1>
-<p>[1]张海藩,牟永敏. 软件工程导论[M] .北京.清华大学出版社. 2013(06)</p>
-<p>[2]耿祥义,张跃平. Java程序设计精编教程[M] .北京.清华大学出版社. 2017(03)</p>
-<p>[3]王珊,萨师煊. 数据库系统概论[M].北京.高等教育出版社. 2014(05)</p>
-<p>[4] 张英,杜炜. JDBC数据库连接池技术简介及设计[J]. 电脑知识与技术. 2010 (08)</p>
-<p>[6] 赵海龙,戴玉刚. JDBC驱动程序及其选择分析[J]. 福建电脑. 2008 (02)</p>
-<p>[7] 罗荣,唐学兵. 基于JDBC的数据库连接池的设计与实现[J]. 计算机工程. 2004 (09)</p>
-<p>[8] 何明,戴钢,葛正义. 基于JDBC语句分享的数据库连接池[J]. 铁路计算机应用. 2002 (11)</p>
-<p>[9] 张廷玉,石伟伟. 基于JDBC的WebGIS异构数据库存取技术[J]. 测绘通报. 2000 (01)</p>
-<p>[10] 谢人强. 选用合适的JDBC驱动程序[J]. 电脑知识与技术(学术交流). 2007 (02)</p>
-<p>[11] 孙国志. 面向软件工程的工作流管理系统研究[J]. 企业技术开发. 2014 (11)</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[在deepin中使用code::blocks]]></title>
-        <id>https://DDC777.github.io/post/zai-deepin-zhong-shi-yong-codeblocks/</id>
-        <link href="https://DDC777.github.io/post/zai-deepin-zhong-shi-yong-codeblocks/">
-        </link>
-        <updated>2020-10-28T13:45:06.000Z</updated>
-        <summary type="html"><![CDATA[<p><s>记一次无用的折腾</s></p>
-]]></summary>
-        <content type="html"><![CDATA[<p><s>记一次无用的折腾</s></p>
-<!-- more -->
-<h3 id="安装codeblocks">安装code::blocks</h3>
-<p><code>sudo add-apt-repository ppa:codeblocks-devs/release</code><br>
-<code>sudo apt-get update</code><br>
-<code>sudo apt-get install codeblocks codeblocks-contrib</code></p>
-<p>若因为依赖安装失败，可通过aptitude安装</p>
-<p><code>sudo apt-get install aptitude</code><br>
-<code>sudo aptitude install codeblocks codeblocks-contrib</code></p>
-<p>还是安装失败的话试试切换aptitude的不同安装方案</p>
-<!-- more -->
-<h3 id="安装环境变量">安装环境变量</h3>
-<p><code>sudo apt-get install gcc</code></p>
-<!-- more -->
-<h3 id="汉化选装">汉化（选装）</h3>
-<p>创建中文目录</p>
-<p><code>cd /usr/share/codeblocks/</code><br>
-<code>sudo mkdir locale</code><br>
-<code>cd locale</code><br>
-<code>sudo mkdir zh_CN</code></p>
-<p>语言包链接：https://pan.baidu.com/s/1yZsSk9ZFqVx7cn02nI6M_g<br>
-提取码：DDC5</p>
-<p>将mo后缀的语言包移动到/usr/share/codeblocks/locale/zh_CN</p>
-<p>打开code::blocks点击Setting：EnvironmentSettings，View中勾选internationalization就可以选择刚刚装的汉化包了</p>
-<!-- more -->
-<h3 id="其它">其它</h3>
-<p>无法编译的话记得将编译器设置为GUN GCC Compiler</p>
-<figure data-type="image" tabindex="1"><img src="https://DDC777.github.io/post-images/1603892866298.png" alt="" loading="lazy"></figure>
-<p>code::blocks自带的终端xterm非常反人类，可以将终端设置为deepin系统终端</p>
-<figure data-type="image" tabindex="2"><img src="https://DDC777.github.io/post-images/1603892875014.png" alt="" loading="lazy"></figure>
-<p>提示插件不兼容的话可以直接去目录将那个插件改名或者移动到其它地方<s>删除</s></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[记一次西西批西区域赛]]></title>
-        <id>https://DDC777.github.io/post/ji-yi-ci-xi-xi-pi-xi-qu-yu-sai/</id>
-        <link href="https://DDC777.github.io/post/ji-yi-ci-xi-xi-pi-xi-qu-yu-sai/">
-        </link>
-        <updated>2020-10-11T07:20:31.000Z</updated>
-        <content type="html"><![CDATA[<p>封装一张纸条-&gt;ac一道题<br>
-什么嘛，我还是蛮不错的嘛</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[针不戳]]></title>
-        <id>https://DDC777.github.io/post/zhen-bu-cuo/</id>
-        <link href="https://DDC777.github.io/post/zhen-bu-cuo/">
-        </link>
-        <updated>2020-09-10T13:06:22.000Z</updated>
-        <content type="html"><![CDATA[<p>住在山里针不戳</p>
-]]></content>
-    </entry>
-</feed>
+
+                                </div>
+                    </article>
+                    <!--  -->
+                    
+                        <div class="next-post">
+                            <div class="next">下一篇</div>
+                            <a href="https://DDC777.github.io/post/javawindowbuildermysql-shi-xian-fan-dian-guan-li-xi-tong/">
+                                <h3 class="post-title">
+                                    JAVA+WindowBuilder+MySQL实现饭店管理系统
+                                </h3>
+                            </a>
+                        </div>
+                        
+                            <div id="disqus_thread"></div>
+                            <div id="gitalk-container"></div>
+                </div>
+                <!-- middle -->
+                <div class="main-container-middle"></div>
+                <!-- right -->
+                <div id="sidebar" class="main-container-right">
+                    
+                        <!-- toc -->
+                        
+    <div class="toc-card i-card ">
+        <div class="toc-title i-card-title">目录</div>
+        <div class="toc-content">
+            <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#html">HTML</a><br>
+*
+<ul>
+<li><a href="#html-%E8%AF%AD%E4%B9%89%E5%8C%96">HTML 语义化</a></li>
+<li><a href="#%E8%A1%8C%E7%BA%A7%E5%9D%97%E7%BA%A7%E5%85%83%E7%B4%A0%E5%9D%97%E7%8A%B6%E5%86%85%E8%81%94">行级块级元素（块状，内联）</a></li>
+<li><a href="#script-%E6%A0%87%E7%AD%BE%E4%B8%AD-defer-%E5%92%8C-async">script 标签中 defer 和 async</a></li>
+</ul>
+</li>
+<li><a href="#css">CSS</a><br>
+*
+<ul>
+<li><a href="#%E7%9B%92%E6%A8%A1%E5%9E%8B%E5%AE%BD%E5%BA%A6%E8%AE%A1%E7%AE%97">盒模型宽度计算</a></li>
+<li><a href="#margin">margin</a>
+<ul>
+<li><a href="#%E9%87%8D%E5%8F%A0">重叠</a></li>
+<li><a href="#%E8%B4%9F%E5%80%BC">负值</a></li>
+</ul>
+</li>
+<li><a href="#bfc">BFC</a></li>
+<li><a href="#float">float</a>
+<ul>
+<li><a href="#%E4%B8%A4%E6%A0%8F%E5%B8%83%E5%B1%80">两栏布局</a></li>
+<li><a href="#%E4%B8%89%E6%A0%8F%E5%B8%83%E5%B1%80">三栏布局</a></li>
+</ul>
+</li>
+<li><a href="#flex">flex</a></li>
+<li><a href="#position">position</a></li>
+<li><a href="#%E5%B1%85%E4%B8%AD%E5%AF%B9%E9%BD%90%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F">居中对齐实现方式</a></li>
+<li><a href="#line-height-%E7%BB%A7%E6%89%BF%E6%96%B9%E5%BC%8F">line-height 继承方式:</a></li>
+<li><a href="#%E5%93%8D%E5%BA%94%E5%BC%8Fremvwvh">响应式(rem/vw/vh)</a></li>
+</ul>
+</li>
+<li><a href="#js">JS</a>
+<ul>
+<li><a href="#%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B%E5%92%8C%E8%AE%A1%E7%AE%97">变量类型和计算</a></li>
+<li><a href="#%E5%8E%9F%E5%9E%8B%E5%8E%9F%E5%9E%8B%E9%93%BE">原型原型链</a></li>
+<li><a href="#%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%92%8C%E9%97%AD%E5%8C%85">作用域和闭包</a></li>
+<li><a href="#%E5%BC%82%E6%AD%A5">异步</a>
+<ul>
+<li><a href="#event-loop-%E4%BA%8B%E4%BB%B6%E5%BE%AA%E7%8E%AF">event loop 事件循环</a></li>
+<li><a href="#promise">Promise</a></li>
+<li><a href="#asyncawait">async/await</a></li>
+<li><a href="#%E5%AE%8F%E4%BB%BB%E5%8A%A1-macrotask%E5%92%8C%E5%BE%AE%E4%BB%BB%E5%8A%A1-microtask">宏任务 macroTask和微任务 microTask</a></li>
+<li><a href="#%E6%89%8B%E5%86%99promise">手写promise</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#js-web-api">JS Web API</a></li>
+<li><a href="#dom">DOM</a></li>
+<li><a href="#bom">BOM</a></li>
+<li><a href="#%E4%BA%8B%E4%BB%B6">事件</a></li>
+<li><a href="#ajax">ajax</a></li>
+<li><a href="#%E5%AD%98%E5%82%A8">存储</a></li>
+<li><a href="#http">HTTP</a>
+<ul>
+<li><a href="#http-%E7%8A%B6%E6%80%81%E7%A0%81">http 状态码</a></li>
+<li><a href="#http-methods">http methods</a></li>
+<li><a href="#http%E7%BC%93%E5%AD%98">http缓存</a>
+<ul>
+<li><a href="#%E5%BC%BA%E7%BC%93%E5%AD%98%E4%B8%8E%E5%8D%8F%E5%95%86%E7%BC%93%E5%AD%98">强缓存与协商缓存</a></li>
+</ul>
+</li>
+<li><a href="#%E7%89%88%E6%9C%AC">版本</a></li>
+<li><a href="#hsts">HSTS</a></li>
+<li><a href="#http%E5%8D%8F%E8%AE%AE%E7%89%B9%E7%82%B9">HTTP协议特点</a></li>
+<li><a href="#tcp">TCP</a>
+<ul>
+<li><a href="#%E8%BF%9E%E6%8E%A5%E4%B8%89%E6%AC%A1%E6%8F%A1%E6%89%8B">连接三次握手</a></li>
+<li><a href="#%E6%96%AD%E5%BC%80%E5%9B%9B%E6%AC%A1%E5%88%86%E6%89%8B">断开四次分手</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83">开发环境</a></li>
+<li><a href="#%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83">运行环境</a>
+<ul>
+<li><a href="#%E7%BD%91%E9%A1%B5%E5%8A%A0%E8%BD%BD%E8%BF%87%E7%A8%8B">网页加载过程</a>
+<ul>
+<li><a href="#%E9%A1%B5%E9%9D%A2%E6%B8%B2%E6%9F%93">页面渲染</a></li>
+<li><a href="#%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96">性能优化</a></li>
+</ul>
+</li>
+<li><a href="#%E6%B5%8F%E8%A7%88%E5%99%A8">浏览器</a>
+<ul>
+<li><a href="#url">URL</a></li>
+<li><a href="#dns">DNS</a></li>
+</ul>
+</li>
+<li><a href="#%E5%AE%89%E5%85%A8">安全</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+        <script>
+            function locateCatelogList() {
+                /*获取文章目录集合,可通过:header过滤器*/
+                var alis = $('.post-content :header');
+                /*获取侧边栏目录列表集合**/
+                var sidebar_alis = $('.markdownIt-TOC a');
+                /*获取滚动条到顶部的距离*/
+                var scroll_height = $(window).scrollTop();
+                for (var i = 0; i < alis.length; i++) {
+                    /*获取锚点集合中的元素分别到顶点的距离*/
+                    var a_height = $(alis[i]).offset().top;
+                    if (a_height < scroll_height) {
+                        /*高亮显示*/
+                        sidebar_alis.removeClass('on');
+                        $(sidebar_alis[i]).addClass('on');
+                    }
+                }
+            }
+            $(function() {
+                /*绑定滚动事件 */
+                $(window).bind('scroll', locateCatelogList);
+            });
+        </script>
+    </div>
+    
+                            
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="site-footer">
+   | 
+  <a class="rss" href="https://DDC777.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+</script>
+
+
+    </div>
+    <script>
+        $('#sidebar').stickySidebar({
+            topSpacing: 80,
+            // bottomSpacing: 60
+        });
+    </script>
+    
+</body>
+
+</html>
